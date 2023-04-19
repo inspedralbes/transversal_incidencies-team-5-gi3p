@@ -1,0 +1,49 @@
+body {
+
+        background-color: rgba(216, 210, 209, 0.664);
+   
+    margin-top: 250px;
+    margin-left:450px;
+    margin-right: 450px;
+  }
+  div{
+      text-align: center;
+      align-content: center;
+      border:0px solid rgba(216, 210, 209, 0.664);
+  
+   
+    
+  }
+  a{
+      color:black;
+      text-decoration: underline rgba(216, 210, 209, 0.664); 
+  }
+  .resultado {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .resultado h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(46, 45, 45);
+    margin-top: 0px;
+}
+.logo {
+    margin-left: 135px;
+    margin-right: 50px;
+    background-image: url(Logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+
+}
