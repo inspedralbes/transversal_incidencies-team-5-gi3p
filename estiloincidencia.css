@@ -1,0 +1,36 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+  }
+  
+  form {
+    margin: 30px;
+    margin-left: 0px;
+    width: 200px;
+  }
+  
+  input[type=text] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  input[type=submit] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0056b3;
+  }
+  
+  
